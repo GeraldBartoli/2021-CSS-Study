@@ -52,6 +52,7 @@ li a:hover:not(.active) {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+
 }
 
 .row:after {
@@ -103,6 +104,7 @@ div#footer a {
     float: left;
     overflow: hidden;
     font-weight: bold;
+
 }
 
 .dropdown .dropButton {
@@ -124,6 +126,7 @@ div#footer a {
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
+    color: white;
 }
 
 .dropdown:hover .dropdownContent {
@@ -138,22 +141,43 @@ div#footer a {
 
 .dropdownContent a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 
 }
-div.polaroid{
-    width:80%;
+
+div.polaroid {
+    width: 50%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .2);
     margin-bottom: 25px;
 }
-#thumbnail{
+#thumbnail {
     width: 150px;
     border-radius: 4px;
     padding: 5px;
     border: 1px solid #ddd;
+}#responsive{
+     max-width: 75%;
+     height: auto;
+ }
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+div.container{
+    text-align: center;
+    padding: 10px 20px;
+}
+#transparent{
+    opacity: .5;
+}
+#rounded {
+    border-radius: 20%;
+}
+
+
